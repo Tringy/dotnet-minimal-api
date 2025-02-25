@@ -17,7 +17,7 @@ Content-Type: application/json
     "password": "securepassword"
 }
 
-### Get User by 
+### Get User Welcome Message
 @token = PUT_TOKEN_VALUE_HERE
 GET http://localhost:5000/users/welcome
 Authorization: Bearer {{token}}
